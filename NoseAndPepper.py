@@ -16,7 +16,7 @@ x,y = imageBW.shape
 a = np.zeros((x,y) , dtype= np.float32)
 
 # salt and pepper
-# nose 10% pepper=0.5
+# nose 10% pepper=0.05
 # nose 25% pepper=0.125
 # nose 50% pepper=0.25
 pepper = 0.25
